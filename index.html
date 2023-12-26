@@ -3,6 +3,11 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="icon"
+			href="https://www.clebagelkent.com/wp-content/uploads/2023/01/cropped-favicon-192x192.png"
+			sizes="192x192"
+		/>
 		<link rel="stylesheet" href="./styles/style.css" />
 		<link rel="stylesheet" href="https://use.typekit.net/wip0otj.css" />
 		<link
@@ -26,18 +31,8 @@
 							>Order</a
 						>
 					</li>
-					<li class="button-dropdown top-nav">
-						<a href="javascript:void(0)" class="dropdown-toggle">
-							About&nbsp;<span><i class="fas fa-caret-down"></i></span>
-						</a>
-						<ul class="dropdown-menu">
-							<li>
-								<a href="./about.html"> About Us </a>
-							</li>
-							<li>
-								<a href="./mission-vision.html"> Mission & Vision</a>
-							</li>
-						</ul>
+					<li class="top-nav">
+						<a href="./about.html"> About </a>
 					</li>
 					<li class="button-dropdown top-nav">
 						<a href="javascript:void(0)" class="dropdown-toggle">
@@ -63,43 +58,15 @@
 		</header>
 
 		<!-- Main content -->
-		<main class="homepg-main">
-			<div id="homepg" class="hero-image"></div>
-			<section class="homepg-section fadein">
-				<div class="intro">
+		<main>
+			<div id="homepg" class="hero-image">
+				<section class="homepg-section fadein">
 					<h1>Cleveland-Style Bagels in Kent, Ohio</h1>
-					<div class="button">
-						<a
-							href="https://order.toasttab.com/online/cleveland-bagel-cafe-kent"
-							><button class="homepg-btn">Order Online</button></a
-						>
-					</div>
-				</div>
-
-				<div>
-					<h2>🥯 Savor the Flavor of Freshly Baked Bagels</h2>
-					<p>
-						Nestled in the heart of Kent, Ohio, our bagel cafe is a haven for
-						bagel enthusiasts and food lovers alike. We take pride in serving
-						the community with the finest hand-rolled bagels, paired with an
-						array of mouthwatering toppings.
-					</p>
-				</div>
-
-				<div>
-					<h2>🍳 The Perfect Start to Your Day</h2>
-					<p>
-						Start your morning on a delicious note with our fresh bagels and
-						gourmet coffee. Whether you're in a rush or have the luxury of time,
-						we have something to tantalize your taste buds. Explore our website
-						to discover our diverse menu, learn about our commitment to quality,
-						and find out what makes us unique.
-					</p>
-				</div>
-			</section>
+				</section>
+			</div>
 		</main>
 		<section class="divider">
-			<h2>Featured Goods</h2>
+			<h2>🥯 Featured Goods 🍳</h2>
 		</section>
 		<div class="products">
 			<div class="product bagels">
@@ -121,9 +88,9 @@
 				<h2>Bagels Make the World a Happy Place</h2>
 				<p class="hours">Open Daily, 7 a.m. - 4 p.m.</p>
 				<p>
-					Send us a message and we’ll get back to you as soon as possible. You
-					can also reach us at <a href="tel:3305489012">330-548-9012</a>. We
-					look forward to hearing from you.
+					Yes, it’s that simple. Our mission is to make something really great
+					to eat. For us, that means making a really great, Cleveland-style
+					bagel. Now in Kent, Ohio!
 				</p>
 			</section>
 			<div class="footer-contact">
@@ -169,5 +136,6 @@
 		</footer>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 		<script src="./scripts/nav.js"></script>
+		<script src="./scripts/sticky.js"></script>
 	</body>
 </html>
